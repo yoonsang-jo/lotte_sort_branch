@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #ff0000;
+}
+
+#root {
+  @apply w-4/5;
+}
+
+body {
+  box-sizing: border-box;
+  @apply flex flex-col items-center;
+  @apply bg-zinc-700 text-gray-50;
+}
